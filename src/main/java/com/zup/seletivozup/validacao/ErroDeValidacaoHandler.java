@@ -34,25 +34,5 @@ public class ErroDeValidacaoHandler {
 		return erroDto;
 		
 	}
-	
-//	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
-//	@ExceptionHandler(ConstraintViolationException.class)
-//	public ErroDto registroDuplicado(ConstraintViolationException exception) {
-//		 
-//		String campo = exception.getConstraintName();
-//		ErroDto erroDto = new ErroDto(campo, "Dado já existente no banco de dados");
-//		return erroDto;
-//	}
-
-//	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
-//	@ExceptionHandler(DateTimeParseException.class)
-//	public ErroDto dataInvalida(DateTimeParseException exception) { 
-//		String campo = exception.getParsedString();
-//		ErroDto erroDto = new ErroDto(campo, "Formato da data inválido");
-//		
-//		return erroDto;
-//	}
-	
-	
 
 }

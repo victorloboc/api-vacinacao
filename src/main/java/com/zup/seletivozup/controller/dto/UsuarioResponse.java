@@ -45,6 +45,4 @@ public class UsuarioResponse {
 		return dataNascimento;
 	}
 	
-	
-
 }
